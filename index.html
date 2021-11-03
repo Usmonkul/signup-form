@@ -4,11 +4,42 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project</title>
+  <title>Sign Up</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <main class="main-content">
+    <div class="mainpage-wrapper container">
+      <section class="hero-section">
+        <div class="hero-content">
+          <a href="#" class="logo-link">frontend and backend</a>
+          <h2 class="hero-header">Learn to program by watching <br> professionals</h2>
+          <p class="hero-text">See how experienced developers solve <br> problems in real time</p>
+        </div>
+        <div class="offer-price">
+          <a href="#" class="price-trail"><strong>Try it free 7 days,</strong> then $20/month</a>
+        </div>
+      </section>
+      <section class="signup-section">
+        <h2 class="signup-header">Sign up for the course and get free 7 days</h2>
+        <form class="signup-form" action="https://ech.htmlacademy.ru" method="post">
+          <input class="signup-input" type="text" name="fname" placeholder="First Name" aria-label="firstname" required autocomplete="off">
+          <input class="signup-input" type="text" name="lname" placeholder="Last Name" aria-label="lastname" required autocomplete="off">
+          <input class="signup-input" type="email" name="email" placeholder="Email Adress" aria-label="email_address" required>
+          <input class="signup-input last-ch" type="password" name="password" placeholder="Password" aria-label="password" required minlength="8" maxlength="16" autocomplete="off">
+          <input class="signup-btn" type="submit" value="Claim your free trial">
+        </form>
+
+        <footer class="terms-services">
+          <p class="terms-text">By clicking the button, you are agreeing to our <a class="term-service" href="#">Terms and Services</a></p>
+        </footer>
+      </section>
+    </div>
+  </main>
 
 
   <script src="js/main.js"></script>
